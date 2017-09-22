@@ -25,7 +25,7 @@ class App extends React.Component {
       <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <Link to="/home">Home</Link>
+          <Link to="/home">หน้าแรก</Link>
         </Navbar.Brand>
       </Navbar.Header>
     </Navbar>
