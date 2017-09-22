@@ -59,7 +59,7 @@ class FixCost extends React.Component {
         <h3>มีทั้งหมด {this.state.person} คน</h3>
         <h3>ค่าอาหาร {this.state.price} บาท</h3>
         <h3>เหมาจ่ายไป {this.state.fix_price * this.state.fix_person} บาท</h3>
-        <h3>เหลือที่หาร {this.state.price - this.state.fix_price} บาท</h3>
+        <h3>เหลือที่หาร {this.state.price - (this.state.fix_price * this.state.fix_person)} บาท</h3>
         <h2>ที่เหลือ คนละ {cal} บาท</h2>
       </Col>
     }
